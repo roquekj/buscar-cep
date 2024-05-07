@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    padding: auto
+}
+
+.topo {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cont-nav {
+    display: flex;
+    font-size: 15px;
+    gap: 15px;
+    padding-right: 30px;
+}
+
+#name-consulta {
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.box-consulta {
+    margin-top:  10px;
+    background-color: rgb(38, 208, 250);
+    width: 100%;
+    height: 200px;
+}
+
+.box-consulta-interna {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    gap: 10px;
+}
+
+#endereco {
+    font-size: 15px;
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.pesquisa {
+    position: relative;
+}
+
+.pesquisa input{
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: #ffffff solid 2px;
+    background-color: transparent;
+    color: #ffffff;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+button {
+    width: 100px;
+    border: rgb(255, 255, 255) solid 2px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}

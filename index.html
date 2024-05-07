@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/localizacao-mapa.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Buscar CEP</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="topo">
+            <img src="img/localizacao-do-mapa.png" alt="localizacao" width="40px">
+            <h2 id="name-top">Buscar Cep</h2>
+        </div>
+            <div class="cont-nav">
+                <p>Rastreamento de Objetos</p>
+                <p>Link Correios</p>
+                <p>Buscar CEP</p>
+                <p>Sobre</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+    </nav>
+
+    <div class="box-consulta">
+        <h1 id="name-consulta" >Consulta de CEP</h1>
+            <div class="box-consulta-interna">
+                <div class="pesquisa">
+                <input type="text" id="cepInput" placeholder="Digite seu CEP">
+                <label class="form-pesquisa" for="cepInput"></label>
+                </div>
+            <button onclick="buscarEndereco()">Buscar</button>
+            </div>
+            <div id="endereco"></div>
+    </div>
+
+</body>
+</html>
